@@ -6,45 +6,48 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-19a70681.css">
-	<link rel="modulepreload" href="/_app/start-53f1bf0b.js">
-	<link rel="modulepreload" href="/_app/chunks/index-a0b1badf.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-778a96d1.js">
-	<link rel="modulepreload" href="/_app/pages/private/index.svelte-d7893bae.js">
+	<link href="./_app/immutable/assets/_layout-928e8782.css" rel="stylesheet">
+	<link rel="modulepreload" href="./_app/immutable/start-e22427a9.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/index-2762f7e9.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-b6f9e789.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-d161f931.js">
+	<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-6e638c67.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/_layout-dfa4b11f.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/private/_page.svelte-2de57919.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/utils-ad1d6cbc.js">
 	</head>
 	<body>
 		<div>
 
 
-<div class="container mx-auto"><section class="svelte-12lyx"><h1>About Me</h1>
+<div class="max-width: 64rem container mx-auto"><section class="svelte-12lyx"><h1>About Me</h1>
 
-<a sveltekit:prefetch href="/">top</a></section></div>
+<a data-sveltekit-prefetch href="/">top / ⏎</a></section></div>
 
-<footer class="py-6 flex items-center flex-col bg-nord1"><!-- HTML_TAG_START --><q>Why do they call it hyper terminal?</q><q>Too much Java.</q><!-- HTML_TAG_END -->
+<footer class="flex flex-col items-center bg-nord1 py-6"><!-- HTML_TAG_START --><q>// This line doesn't actually do anything, but the code stops working when I delete it.</q><!-- HTML_TAG_END -->
 
-	<p class="text-xs text-center">Not funny? <button>[try again!]</button></p></footer>
+	<p class="text-center text-xs">Not funny? <button>[try again!]</button></p></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="pg3wtg">
-		import { start } from "/_app/start-53f1bf0b.js";
+		<script type="module" data-sveltekit-hydrate="1mdgxsz">
+		import { start } from "./_app/immutable/start-e22427a9.js";
+
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="pg3wtg"]').parentNode,
-			paths: {"base":"","assets":""},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
+			env: {},
 			hydrate: {
 				status: 200,
 				error: null,
-				nodes: [
-					import("/_app/pages/__layout.svelte-778a96d1.js"),
-						import("/_app/pages/private/index.svelte-d7893bae.js")
-				],
+				node_ids: [0, 4],
 				params: {},
-				routeId: "private"
-			}
+				routeId: "private",
+				data: (function(a){return [a,a]}(null)),
+				errors: null
+			},
+			paths: {"base":"","assets":""},
+			target: document.querySelector('[data-sveltekit-hydrate="1mdgxsz"]').parentNode,
+			trailing_slash: "never"
 		});
-	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/jokes">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"\u003Cq>Why do they call it hyper terminal?\u003C/q>\u003Cq>Too much Java.\u003C/q>"}</script></div>
+	</script>
+	<script type="application/json" data-sveltekit-fetched data-url="/jokes">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8","x-sveltekit-prerender":"true","x-sveltekit-routeid":"jokes"},"body":"\u003Cq>// This line doesn't actually do anything, but the code stops working when I delete it.\u003C/q>"}</script></div>
 	</body>
 </html>

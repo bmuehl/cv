@@ -1,0 +1,1 @@
+const a=!0,o=async({fetch:e,url:t})=>({joke:await(await e("/jokes")).text(),path:t.pathname}),n=Object.freeze(Object.defineProperty({__proto__:null,prerender:!0,load:o},Symbol.toStringTag,{value:"Module"}));export{n as _,o as l,a as p};
