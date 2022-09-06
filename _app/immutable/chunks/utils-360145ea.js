@@ -1,1 +1,0 @@
-function d(n,t="Enter"){function o(e){e.key===t&&(e.preventDefault(),n.focus())}function c(e){e.key===t&&(e.preventDefault(),n.click())}return document.addEventListener("keydown",o),document.addEventListener("keyup",c),{destroy(){document.removeEventListener("keydown",o),document.removeEventListener("keyup",c)}}}export{d as c};
