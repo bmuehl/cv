@@ -1,1 +1,0 @@
-import"./index-2ccead37.js";function u(n){return n*n*((1.70158+1)*n-1.70158)}function a(n){return n<.5?4*n*n*n:.5*Math.pow(2*n-2,3)+1}function s(n){const c=n-1;return c*c*c+1}function o(n){return Math.sin(-13*(n+1)*Math.PI/2)*Math.pow(2,-10*n)+1}export{a,u as b,s as c,o as e};
