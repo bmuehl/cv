@@ -1,1 +1,0 @@
-import"./index-dda841b9.js";function t(n){return n*n*((1.70158+1)*n-1.70158)}function a(n){return n<.5?4*n*n*n:.5*Math.pow(2*n-2,3)+1}function o(n){const u=n-1;return u*u*u+1}function r(n){return Math.sin(-13*(n+1)*Math.PI/2)*Math.pow(2,-10*n)+1}function s(n){return n===0?n:Math.pow(2,10*(n-1))}export{a,t as b,o as c,s as d,r as e};
