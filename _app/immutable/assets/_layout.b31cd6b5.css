@@ -1095,6 +1095,9 @@ a::after {
   .md\:flex-row {
     flex-direction: row;
   }
+  .md\:items-center {
+    align-items: center;
+  }
   .md\:overflow-visible {
     overflow: visible;
   }
