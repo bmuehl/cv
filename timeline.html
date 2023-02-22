@@ -14,20 +14,21 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-22a3cc6e.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/Icon-b16700b9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-9a4b649a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-a567f4dc.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-796752d3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-f4a32f47.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-ce9e6a10.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-1dc6a482.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/utils-b2e3c62e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Icon-158eb257.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-2f0bd232.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-a0509e25.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/timeline/_page.svelte-98fcf19e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/NextLink-c1368724.js"><title>Bernhard Mühl | My Timeline</title><!-- HEAD_svelte-n31qs_START --><!-- HEAD_svelte-n31qs_END -->
+		<link href="./_app/immutable/assets/_layout.01617534.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Icon.b16700b9.css" rel="stylesheet">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/start.2d308b25.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.e65e321e.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/singletons.ba2e7363.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.ccb4333d.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/app.35521946.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_layout.svelte.01cd0b9d.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.daeb3e56.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/utils.bbd722fa.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/Icon.003b9252.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_layout.ts.b8179b28.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/_layout.a0509e25.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/timeline-page.svelte.6e7e69d3.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/NextLink.10a6f94f.mjs"><title>Bernhard Mühl | My Timeline</title><!-- HEAD_svelte-n31qs_START --><!-- HEAD_svelte-n31qs_END -->
 	</head>
 	<body>
 		<div>
@@ -58,29 +59,37 @@
 <a class="my-8 inline-flex items-center justify-center" data-sveltekit-preload-code="viewport" href="/experience"><span>next</span>
 	<span class="hidden md:inline-flex"> / <kbd class="rounded-lg border border-nord2 bg-nord1 px-2 py-1.5 text-xs font-semibold text-nord6 shadow-sm">Space</kbd></span></a></section>
 
-<footer class="w-full overflow-hidden bg-nord1 py-2 shadow-lg"><div class="container mx-auto flex flex-col px-2 text-center"><div class="flex flex-col text-xs"><!-- HTML_TAG_START --><q>Two SQL tables sit at the bar. A query approaches and asks "Can I join you?"</q><!-- HTML_TAG_END --></div>
+<footer class="w-full overflow-hidden bg-nord1 py-2 shadow-lg"><div class="container mx-auto flex flex-col px-2 text-center"><div class="flex flex-col text-xs"><!-- HTML_TAG_START --><q>What are bits?</q><q>Tiny things left when you drop your computer down the stairs.</q><!-- HTML_TAG_END --></div>
 
 		<hr class="my-3 border-nord2">
 
 		<div class="mb-2 text-xs"><button class="text-nord10">[try again]</button></div></div></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="n290f">
-			import { start } from "./_app/immutable/start-9a4b649a.js";
+			<script type="application/json" data-sveltekit-fetched data-url="/jokes">{"status":200,"statusText":"","headers":{},"body":"\u003Cq>What are bits?\u003C/q>\u003Cq>Tiny things left when you drop your computer down the stairs.\u003C/q>"}</script>
+			<script>
+				{
+					__sveltekit_7jf472 = {
+						env: {},
+						assets: new URL(".", location.href).pathname.replace(/^\/$/, ''),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				env: {},
-				paths: {"assets":"","base":""},
-				target: document.querySelector('[data-sveltekit-hydrate="n290f"]').parentNode,
-				version: "1675173492066",
-				hydrate: {
-					node_ids: [0, 5],
-					data: [null,null],
-					form: null,
-					error: null
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.2d308b25.mjs"),
+						import("./_app/immutable/entry/app.35521946.mjs")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_7jf472.element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	<script type="application/json" data-sveltekit-fetched data-url="/jokes">{"status":200,"statusText":"","headers":{},"body":"\u003Cq>Two SQL tables sit at the bar. A query approaches and asks \"Can I join you?\"\u003C/q>"}</script></div>
+			</script>
+		</div>
 	</body>
 </html>
