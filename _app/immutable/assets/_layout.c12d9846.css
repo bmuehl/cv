@@ -1090,6 +1090,9 @@ a::after {
   .md\:inline-flex {
     display: inline-flex;
   }
+  .md\:hidden {
+    display: none;
+  }
   .md\:h-\[550px\] {
     height: 550px;
   }
