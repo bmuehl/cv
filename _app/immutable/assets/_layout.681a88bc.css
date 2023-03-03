@@ -982,6 +982,10 @@ a::after {
   --tw-text-opacity: 1;
   color: rgb(235 203 139 / var(--tw-text-opacity));
 }
+.text-nord2 {
+  --tw-text-opacity: 1;
+  color: rgb(67 76 94 / var(--tw-text-opacity));
+}
 .text-nord3 {
   --tw-text-opacity: 1;
   color: rgb(76 86 106 / var(--tw-text-opacity));
@@ -1091,6 +1095,15 @@ a::after {
   }
 }
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+  .md\:bottom-0 {
+    bottom: 0px;
+  }
+  .md\:right-0 {
+    right: 0px;
+  }
   .md\:inline-flex {
     display: inline-flex;
   }
